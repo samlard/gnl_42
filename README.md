@@ -62,5 +62,5 @@ cc -Wall -Wextra -Werror get_next_line.c get_next_line_utils.c main.c
 Tu peux changer `BUFFER_SIZE` à la compilation :
 
 ```bash
-cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c main.c
+cc -Wall -Wextra -Werror -DBUFFER_SIZE=42 get_next_line.c get_next_line_utils.c main.c
 ```
